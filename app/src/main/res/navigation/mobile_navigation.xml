@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_start">
+
+    <fragment
+        android:id="@+id/nav_start"
+        android:name="hellschedule.hellschedule.ui.nav_fragment.HomeStart"
+        android:label="@string/menu_start"
+        tools:layout="@layout/fragment_start" />
+
+    <fragment
+        android:id="@+id/nav_manual"
+        android:name="hellschedule.hellschedule.ui.nav_fragment.nav_fragment_manual"
+        android:label="@string/menu_manual"
+        tools:layout="@layout/fragment_manual" />
+
+    <fragment
+        android:id="@+id/nav_policy"
+        android:name="hellschedule.hellschedule.ui.nav_fragment.nav_fragment_policy"
+        android:label="@string/menu_policy"
+        tools:layout="@layout/fragment_policy" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="hellschedule.hellschedule.ui.nav_fragment.nav_fragment_slideshow"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_github"
+        android:name="hellschedule.hellschedule.ui.nav_fragment.nav_fragment_github"
+        android:label="@string/menu_github"
+        tools:layout="@layout/fragment_github" />
+
+    <fragment
+        android:id="@+id/nav_developer"
+        android:name="hellschedule.hellschedule.ui.nav_fragment.nav_fragment_developer"
+        android:label="@string/menu_developer"
+        tools:layout="@layout/fragment_developer" />
+
+</navigation>
